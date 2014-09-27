@@ -122,6 +122,8 @@ public class CompassEnvironment {
                 public static final String BIGDECIMAL = "bigdecimal";
 
                 public static final String BIGINTEGER = "biginteger";
+
+                public static final String ENUM = "enum";
             }
 
             public abstract class Extendend {
