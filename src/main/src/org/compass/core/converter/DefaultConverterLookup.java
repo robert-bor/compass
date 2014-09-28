@@ -161,6 +161,8 @@ public class DefaultConverterLookup implements ConverterLookup {
                 String.class, new StringConverter());
         addDefaultConverter(converterGroups, CompassEnvironment.Converter.DefaultTypeNames.Simple.STRINGBUFFER,
                 StringBuffer.class, new StringBufferConverter());
+        addDefaultConverter(converterGroups, CompassEnvironment.Converter.DefaultTypeNames.Simple.ENUM,
+                Enum.class, new EnumConverter());
         addDefaultConverter(converterGroups, CompassEnvironment.Converter.DefaultTypeNames.Simple.URL,
                 URL.class, new URLConverter());
         addDefaultConverter(converterGroups, CompassEnvironment.Converter.DefaultTypeNames.Simple.URI,

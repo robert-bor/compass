@@ -180,6 +180,8 @@ public class CompassEnvironment {
 
                 public static final String STRINGBUFFER = "stringbuffer";
 
+                public static final String ENUM = "enum";
+
                 public static final String URL = "url";
 
                 public static final String URI = "uri";
